@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: #5bb2ec;
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+   
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0; /* Elimina el margen del último elemento */
+  }
+  nav ul li a {
+    color: #ffffff; /* Color del texto de las letras en los enlaces */
+    text-decoration: none; /* Elimina el subrayado predeterminado en los enlaces si lo deseas */
+    padding: 30px;
+}
+  
+  /* Estilo de los enlaces cuando se les pasa el mouse por encima (opcional) */
+  nav ul li a:hover {
+    color: #e7833c; /* Cambia el color del texto cuando se pasa el mouse por encima */
+  }
+  main{
+    display: flex;
+    align-items: flex-start;
+  }
+
+  section {
+    flex: 1; /* La section ocupará todo el espacio disponible en el lado izquierdo */
+    padding: 2px; /* Añade un poco de espacio alrededor de la section */
+    background-color: #f0f0f0; /* Color de fondo para la section */
+    height:46rem;
+    width: 40%;
+}
+
+  table {
+    flex: 4;
+    width: 60%; /* Ajusta el ancho de la tabla según tus necesidades */
+    background: linear-gradient(to right, #cccccc, #ffffff,#cccccc);
+    table-layout: auto;
+    margin-left: 10px;
+    margin-right: 5px;
+    border-radius: 18px;
+    border-collapse: collapse;
+
+  }
+  h2{
+    vertical-align: top;
+    color: rgb(6, 58, 104);
+    font-style: oblique;
+  }
+  th,td{
+
+    border:1px solid #0d0d0d;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*border-radius: 18px;*/
+    word-wrap: break-word; 
+
+  }
+  .no-center li{
+    text-align: left;
+  }
+  #formulario{
+    order: 4;
+  }
+  
